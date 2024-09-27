@@ -27,6 +27,8 @@
 }
 
 @page {
+  margin-left: 25mm;
+  margin-right: 15mm;
   @top-left {
     background: #fbc847;
     content: counter(page);
@@ -170,6 +172,28 @@ h4 {
   color: #fbc847;
   content: target-counter(attr(href), page);
   float: right;
+}
+#forord {
+  border: 1px solid red;
+  text-align: justify;
+}
+
+#forord section {
+  background-color: tomato;
+}
+
+#forord-indhold {
+  background-color: lime;
+  float: left;
+  width: 60%;
+}
+
+#forord-box {
+  background-color: tomato;
+  /* padding-left: 0.5cm; */
+  font-size: 4pt;
+  float: left;
+  width: 40%;
 }
 
 #columns section {
